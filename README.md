@@ -1,4 +1,4 @@
-# MMB
+# MMB: Multimodal Medical Prototype Brid
 Non linear cross fusion of multimodality of msi format images-Ultrasound,chestxray,histopathalogical
 
 This project implements a multimodal deep learning framework for medical image classification using histopathology, chest X-ray, and ultrasound images. The model extracts deep features from each modality and performs prototype-guided feature fusion, where class-specific prototypes are used to enhance the discriminative power of the learned representations. By leveraging complementary information across multiple imaging modalities, the framework aims to improve classification performance and robustness compared to conventional single-modality and simple feature fusion approaches. The model is evaluated using standard classification metrics and visualization techniques to assess its effectiveness.
